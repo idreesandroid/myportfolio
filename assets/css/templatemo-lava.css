@@ -274,6 +274,7 @@ header
 .header-area .main-nav {
   min-height: 80px;
   background: transparent;
+  display: flex;
 }
 
 .header-area .main-nav .logo {
@@ -297,7 +298,7 @@ header
   margin-left: 15%;
   margin-right: 0px;
   background-color: #fff;
-  padding: 0px 20px;
+  padding: 0px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1105,7 +1106,36 @@ footer .social li a {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-
+footer .social li a.facebook:hover {
+    background-color: #004085;
+    border-color: #ffffff;
+    color: #fff !important;
+}
+footer .social li a.twitter:hover {
+    background-color: #00acee;
+    border-color: #ffffff;
+    color: #fff !important;
+}
+footer .social li a.linkedin:hover {
+    background-color: #0e76a8;
+    border-color: #ffffff;
+    color: #fff !important;
+}
+footer .social li a.instagram:hover {
+    background-color: #DD2A7B;
+    border-color: #ffffff;
+    color: #fff !important;
+}
+footer .social li a.pinterest:hover {
+    background-color: #E60023;
+    border-color: #ffffff;
+    color: #fff !important;
+}
+footer .social li a.github:hover {
+    background-color: #0b0b0bfc;
+    border-color: #ffffff;
+    color: #fff !important;
+}
 footer .social li a:hover {
   background-color: #fba70b;
   border-color: #fba70b;
