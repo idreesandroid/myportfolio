@@ -1264,3 +1264,7 @@ preloader
     opacity: 0;
   }
 }
+
+#myLocation h2{
+  text-align: center;
+}
