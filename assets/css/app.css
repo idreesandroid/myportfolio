@@ -1,8 +1,18 @@
 #header_section h1{
 	color: #fff;
 }
+#header_section h5{
+	color: #e74646;
+}
+
+#header_section p{
+	color: #fff;
+}
+
+
 #header_section img{
 	width: 100%;
+	border: 5px solid #449399;
 }
 #header_section {
 	background-color: #313c4e;
@@ -12,6 +22,49 @@
 	color: #fff;
 }
 .skill_tags span{
-	background-color: red;
-	
+	background-color: #313c4e;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	padding: 2px 5px;	
+	margin-bottom: 5px;
+}
+.title{
+	border-bottom: 3px solid #449399;
+    width: fit-content;
+    font-size: 18px;
+    margin: 14px 0;
+    color: #449399;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.interest_detail span{
+	border-radius: 5px;
+	color: #313c4e;
+	display: inline-block;
+	padding: 2px 5px;	
+	margin-bottom: 5px;
+	border: 2px solid #313c4e;
+}
+#contact_section .email{
+	padding-left: 86px;
+}
+
+#contact_section .dob{
+	padding-right: 25px;
+}
+#language_section .circle{
+	width: 20px;
+    display: inline-block;
+    border: 2px solid #313c4e;
+    height: 20px;
+    border-radius: 50%;
+}
+.fill {
+
+    background-color: #313c4e;
+}
+.not-fill{
+
+    background-color: #fff;
 }

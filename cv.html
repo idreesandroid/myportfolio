@@ -10,7 +10,8 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
         <title>Muhammad Idrees | Professional Profile</title>
-   
+
+
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
         <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
@@ -18,6 +19,11 @@
         <link rel="stylesheet" href="assets/css/templatemo-lava.css">
 
         <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+        <!--
+         <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    --> 
+        <link rel="stylesheet" type="text/css" href="assets/icons/css/all.min.css">  
 
         <link rel="stylesheet" href="assets/css/app.css">
 
@@ -29,7 +35,7 @@
                     <div class="row">
                         <div class="col-md-10">
                             <h1>Muhammad Idrees</h1>
-                            <h5>NetSuite Developer</h5>
+                            <h5>Laravel Developer</h5>
                             <p>Figuring out how to find an open door in a focused and testing condition where I can apply my insight and aptitudes to make me perfect, appropriate, one of a kind and relatively great.</p>
                         </div>
                         <div class="col-md-2">                    
@@ -43,20 +49,21 @@
             <div class="container-fluid ">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3">
-                            <span></span>
+                        <div class="col-md-4 email">
+                            <i class="fas fa-envelope"></i>
                             <span>Idrees_android@outlook.com</span>
                         </div>
-                        <div class="col-md-3">
-                            <span></span>
+                        <div class="col-md-2">
+                            <i class="fas fa-mobile-alt"></i>
                             <span>+92-345-8809715</span>
                         </div>
                         <div class="col-md-3">
-                            <span></span>
+                            <i class="fas fa-map-marker"></i>
                             <span>Rawalpindi, Pakistan</span>
+                            <i class="fas fa-map-marker-check"></i>
                         </div>
-                        <div class="col-md-3">
-                            <span></span>
+                        <div class="col-md-3 dob">
+                            <i class="far fa-calendar-alt"></i>
                             <span>19 March, 1986</span>
                         </div>
                     </div>
@@ -125,21 +132,22 @@
                             <section class="skill_section">
                                 <h4 class="title">Skills</h4>
                                 <div class="skill_tags">
+                                    <span>PHP</span>
+                                    <span>Laravel</span>
+                                    <span>Codeigniter</span>
+                                    <span>Zend Framework</span>
+                                    <span>Wordpress Theme & Plugin Development</span>
+                                    <span>Shopify Store & App Development</span>
                                     <span>JavaScript</span>
-                                    <span>SuiteScript</span>
-                                    <span>C#</span>
+                                    <span>Bootstrap & jQuery</span>
                                     <span>HTML & CSS</span>
                                     <span>GIT</span>
-                                    <span>Data Structures</span>
-                                    <span>&</span>
-                                    <span>Algorithms</span>
-                                    <span>SQL</span>
-                                    <span>Wordpress</span>
-                                    <span>Communication Skills</span>
-                                    <span>MS</span>
-                                    <span>Tools</span>
-                                    <span>Bootstrap</span>
+                                    <span>Data Structures & Algorithms</span>
+                                    <span>SQL & MongoDB</span>
+                                    <span>Google Map API & Extension</span>
                                     <span>REST API's</span>
+                                    <span>MS Tools</span>
+                                    <span>Communication Skills</span>
                                 </div>
                             </section>
                             <section class="certificate_section">
@@ -180,23 +188,31 @@
                                     <p>Punjab Group of Colleges</p>
                                 </div>
                             </section>
-                            <section class="language_section">
+                            <section id="language_section">
                                 <h4 class="title">Languages</h4>
-                                <div class="language_detail">
-                                    <span>English: </span>
-                                    <span class="circle fill"></span>
-                                    <span class="circle fill"></span>
-                                    <span class="circle fill"></span>
-                                    <span class="circle fill"></span>
-                                    <span class="circle not-fill"></span>
+                                <div class="row language_detail">
+                                    <div class="col-md-2">
+                                        <span>English: </span>                  
+                                    </div>
+                                    <div class="col-md-10">
+                                        <span class="circle fill"></span>
+                                        <span class="circle fill"></span>
+                                        <span class="circle fill"></span>
+                                        <span class="circle fill"></span>
+                                        <span class="circle not-fill"></span>
+                                    </div>
                                 </div>
-                                <div class="language_detail">
-                                    <span>Urdu:</span>
-                                    <span class="circle fill"></span>
-                                    <span class="circle fill"></span>
-                                    <span class="circle fill"></span>
-                                    <span class="circle fill"></span>
-                                    <span class="circle not-fill"></span>
+                                <div class="row language_detail">
+                                    <div class="col-md-2">
+                                        <span>Urdu: </span>                  
+                                    </div>
+                                    <div class="col-md-10">
+                                        <span class="circle fill"></span>
+                                        <span class="circle fill"></span>
+                                        <span class="circle fill"></span>
+                                        <span class="circle fill"></span>
+                                        <span class="circle fill"></span>
+                                    </div>
                                 </div>
                             </section>
                             <section id="interest_section">
@@ -227,6 +243,7 @@
         <script src="assets/js/waypoints.min.js"></script>
         <script src="assets/js/jquery.counterup.min.js"></script>
         <script src="assets/js/imgfix.min.js"></script>
+        <script src="assets/js/ripple.js"></script>
 
         <!-- Global Init -->
         <script src="assets/js/custom.js"></script>
@@ -239,6 +256,7 @@
             
         </script>
         <script>
+            $("#header_section").ripples();
             window.fbAsyncInit = function() {
               FB.init({
                 xfbml            : true,
