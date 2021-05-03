@@ -1,0 +1,17 @@
+#header_section h1{
+	color: #fff;
+}
+#header_section img{
+	width: 100%;
+}
+#header_section {
+	background-color: #313c4e;
+}
+#contact_section {
+	background-color: #222a33;
+	color: #fff;
+}
+.skill_tags span{
+	background-color: red;
+	
+}
