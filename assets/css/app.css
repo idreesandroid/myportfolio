@@ -1,5 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600);
+
 #header_section h1{
 	color: #fff;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-weight: 200;
 }
 #header_section h5{
 	color: #e74646;
@@ -20,6 +24,14 @@
 #contact_section {
 	background-color: #222a33;
 	color: #fff;
+	padding: 6px 0;
+	font-size: 15px;
+}
+#contact_section .mobile{
+	padding-left: 68px;
+}
+#contact_section .address{
+	padding-left: 36px;
 }
 .skill_tags span{
 	background-color: #313c4e;
@@ -29,15 +41,34 @@
 	padding: 2px 5px;	
 	margin-bottom: 5px;
 }
-.title{
-	border-bottom: 3px solid #449399;
-    width: fit-content;
-    font-size: 18px;
-    margin: 14px 0;
-    color: #449399;
-    text-transform: uppercase;
-    font-weight: 600;
+.title{	    
+	font-size: 18px;
+	margin: 14px 0;
+	color: #449399;
+	text-transform: uppercase;
+	font-weight: 600;
+	position: relative;
+	display: inline-block;
 }
+
+
+.title:after {
+	position: absolute;
+	left: 0%;
+	content: '';
+	height: 3px;
+	background: #449399;
+	transition: all 0.5s linear;
+	width: 0;
+	bottom: -4px;  
+}
+
+.title:hover:after {
+	width: calc(100% - 0px);
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
 .interest_detail span{
 	border-radius: 5px;
 	color: #313c4e;
@@ -45,9 +76,6 @@
 	padding: 2px 5px;	
 	margin-bottom: 5px;
 	border: 2px solid #313c4e;
-}
-#contact_section .email{
-	padding-left: 86px;
 }
 
 #contact_section .dob{
