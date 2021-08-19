@@ -14,6 +14,20 @@
     <link rel="stylesheet" href="./assets/css/owl-carousel.css">
     <link rel="stylesheet" type="text/css" href="./assets/icons/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/app.css">
+    <style>
+        .social_icons i {
+            font-size: 33px;
+            color: #fff;
+        }
+        
+        .social_icons {
+            margin-right: 10px;
+        }
+        
+        #googleMap {
+            height: 300px;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,6 +39,51 @@
                         <h1>Muhammad Idrees</h1>
                         <h5>Laravel Developer</h5>
                         <p>Figuring out how to find an open door in a focused and testing condition where I can apply my insight and aptitudes to make me perfect, appropriate, one of a kind and relatively great.</p>
+                        <div>
+                            <span class="social_icons">
+                                <a href="https://github.com/idreesandroid">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </span>
+                            <span class="social_icons">
+                                <a href="https://www.linkedin.com/in/muhammad-idrees-43896711b/">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </span>
+                            <span class="social_icons">
+                                <a href="skype:idrees03458809715?action=chat">
+                                    <i class="fab fa-skype"></i>
+                                </a>
+                            </span>
+                            <span class="social_icons">
+                                <a href="https://wa.me/923458809715?text=I%20want%20to%20talk%20to%20you">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </span>
+                            <span class="social_icons">
+                                <a href="https://www.facebook.com/idrees.geo">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </span>
+
+                            <span class="social_icons">
+                                <a href="https://twitter.com/idrees13">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </span>
+
+                            <span class="social_icons">
+                                <a href="https://www.instagram.com/idrees.geo/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </span>
+
+                            <span class="social_icons">
+                                <a href="https://www.pinterest.com/idreesgeo/_saved/">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </span>
+                        </div>
                     </div>
                     <div class="col-md-2">
                         <img class="rounded-circle z-depth-2" alt="Muhammad Idrees" src="assets/images/idrees.jpg" data-holder-rendered="true">
@@ -110,19 +169,57 @@
                             <div class="project_detail">
                                 <h5><a href="http://www.thermtechhvac.com/
                                     ">Therm Tech HVAC</a></h5>
-                                <p>A services Compnay Website Develop in Wordpress.</p>
+                                <p>A services Compnay Website Developed in Wordpress.</p>
                             </div>
                             <div class="project_detail">
-                                <h5>Terror Rampage 3D</h5>
-                                <p>Final Year Project Unity 3D first person shooting game based on true Events. Operations Against Terrorism in Pakistan done by Pakistan Army.</p>
+                                <h5><a href="https://powerpillar.co.uk/">Power Piller</a></h5>
+                                <p>Website Developed for a construction company in worpdress</p>
                             </div>
                             <div class="project_detail">
-                                <h5>Terror Rampage 3D</h5>
-                                <p>Final Year Project Unity 3D first person shooting game based on true Events. Operations Against Terrorism in Pakistan done by Pakistan Army.</p>
+                                <h5><a href="https://www.makeatour.pk/">Make A Tour</a></h5>
+                                <p>Website developed for Tour management services company in codeigniter.</p>
                             </div>
                             <div class="project_detail">
-                                <h5>Terror Rampage 3D</h5>
-                                <p>Final Year Project Unity 3D first person shooting game based on true Events. Operations Against Terrorism in Pakistan done by Pakistan Army.</p>
+                                <h5><a href="http://cpa-ok.com">Jackson, Fox & Richardson PC</a></h5>
+                                <p>A website for a Law Firm in wordpress.</p>
+                            </div>
+                            <div class="project_detail">
+                                <h5>
+                                    <a href="https://peekhelpers.com/">Peek Helpers
+                                    </a>
+                                </h5>
+                                <p>A services provided system developed in Laravel.</p>
+                            </div>
+                            <div class="project_detail">
+                                <h5>
+                                    <a href="https://www.fmiardmore.com/">FMI Ardmore 
+                                    </a>
+                                </h5>
+                                <p>A finencial management website developed in wordpress.</p>
+                            </div>
+                            <div class="project_detail">
+                                <h5>
+                                    <a href="http://filtervac.com/">Filter VAC
+                                    </a>
+                                </h5>
+                                <p>A website developed in wordpress.</p>
+                            </div>
+                            <div class="project_detail">
+                                <h5>
+                                    <a href="https://www.freshinepros.com/">Freshinepros 
+
+                                    </a>
+                                </h5>
+                                <p>A website developed in wordpress.</p>
+                            </div>
+                            <div class="project_detail">
+                                <h5>
+                                    <a href="https://rcdpetresort.com/">Rcdpetresort 
+
+
+                                    </a>
+                                </h5>
+                                <p>A website developed in wordpress.</p>
                             </div>
                         </section>
                     </div>
@@ -227,10 +324,17 @@
                             </div>
                         </section>
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
+        <div id="googleMap"></div>
+
     </section>
+
     <script src="./assets/js/jquery.js"></script>
     <!-- Bootstrap -->
     <script src="./assets/js/popper.js"></script>
@@ -255,6 +359,33 @@
     </script>
     <script>
         //$("#header_section").ripples();
+
+
+        function myMap() {
+            const myLatLng = {
+                lat: 33.624711,
+                lng: 73.035879
+            };
+            var mapProp = {
+                center: new google.maps.LatLng(myLatLng),
+                zoom: 14,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+            const image = "assets/images/pakistan_flag.png";
+            var icon = {
+                url: image, // url
+                scaledSize: new google.maps.Size(100, 100), // scaled size
+                //origin: new google.maps.Point(0, 0), // origin
+                //anchor: new google.maps.Point(0, 0) // anchor
+            };
+            const marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: "Muhammad Idrees!",
+                icon: icon
+            });
+
+        }
         window.fbAsyncInit = function() {
             FB.init({
                 xfbml: true,
@@ -271,6 +402,7 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCa0H2RIdRnapxCXBITUO4yBLQ7nUfQtf0&callback=myMap"></script>
     <div class="fb-customerchat" attribution="setup_tool" page_id="103661521153198"></div>
 </body>
 
