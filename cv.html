@@ -15,22 +15,16 @@
     <link rel="stylesheet" type="text/css" href="./assets/icons/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/app.css">
     <style>
-        .social_icons i {
-            font-size: 33px;
-            color: #fff;
-        }
         
-        .social_icons {
-            margin-right: 10px;
-        }
-        
-        #googleMap {
-            height: 300px;
-        }
     </style>
 </head>
 
 <body>
+    <div class="header">
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+    </div>
     <section id="header_section">
         <div class="container-fluid ">
             <div class="container">
@@ -225,19 +219,93 @@
                     </div>
                     <div class="col-md-6">
                         <section class="skill_section">
-                            <h4 class="title"><i class="fas fa-cog fa-spin" aria-hidden="true"></i> Skills</h4>
+                            <h4 class="title"><i class="fas fa-cog fa-spin" aria-hidden="true"></i> Skills</h4>                      
+                            <div class="skill_animation ">
+                                <div class="chart html" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">HTML</span>
+                                </div>
+                                <div class="chart js" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">JS</span>
+                                </div>
+                                <div class="chart css" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">CSS</span>
+                                </div>
+                                <div class="chart php" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">PHP</span>
+                                </div>
+                                <div class="chart laravel" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">Laravel</span>
+                                </div>
+                                <div class="chart codeigniter" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">Codeigniter</span>
+                                </div>
+                            </div>
+                            <div class="skill_animation ">
+                                <div class="chart zend" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">Zend</span>
+                                </div>                                
+                                <div class="chart googleMap" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">GoogleMap</span>
+                                </div>                       
+                                <div class="chart mysql" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">MySQL</span>
+                                </div>
+                                <div class="chart wordpress" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">WordPress</span>
+                                </div>
+                                <div class="chart shopify" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">Shopify</span>
+                                </div>
+                                <div class="chart photoshop" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">Photoshop</span>
+                                </div>                                  
+                            </div>
+                            <div class="skill_animation ">
+                                <div class="chart bootstrap" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">Bootstrap</span>
+                                </div>
+                                <div class="chart git" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">GIT</span>
+                                </div>                                                                 
+                                <div class="chart jquery" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">jQuery</span>
+                                </div>                       
+                                <div class="chart mongodb" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">MongoDB</span>
+                                </div>                                
+                                <div class="chart communicationSkill" data-percent="86">
+                                    <span class="percent">86%</span>
+                                    <span class="label">Communication</span>
+                                </div>
+                            </div>
                             <div class="skill_tags">
-                                <span>PHP</span>
-                                <span>JavaScript</span>
+                            <!-- <span>PHP</span> 
+                                <span>JavaScript</span> 
                                 <span>Laravel</span>
-                                <span>Codeigniter</span>
+                                <span>Codeigniter</span> 
                                 <span>Zend</span>
                                 <span>WP Theme Dev</span>
                                 <span>WP Plugin Dev</span>
                                 <span>Shopify Store Dev</span>
                                 <span>Shopify App Dev</span>
-                                <span>Bootstrap & jQuery</span>
-                                <span>HTML & CSS</span>
+                                <span>Bootstrap & jQuery</span> 
+                                <span>HTML & CSS</span> 
                                 <span>GIT</span>
                                 <span>MySQL & MongoDB</span>
                                 <span>Google Map API</span>
@@ -245,46 +313,42 @@
                                 <span>REST API's</span>
                                 <span>Photoshop</span>
                                 <span>MS Tools</span>
-                                <span>Communication Skills</span>
+                                <span>Communication Skills</span> -->
                             </div>
                         </section>
                         <section class="certificate_section">
                             <h4 class="title"><i class="fas fa-certificate fa-spin" aria-hidden="true"></i> CERTIFICATES</h4>
                             <div class="certificate_detail">
                                 <h6 class="certificate_title">
-                                    Winner IEEE Xtreme 12.0 Programming Competition (08/2018)
+                                    Web Developing in PHP (08/2016)
                                 </h6>
-                                <p>1st in Pakistan, 145 Region Rank & 406/2608 Global Rank</p>
+                                <p>COMSATS University Islamabad - Abbottabad Campus</p>
                             </div>
                             <div class="certificate_detail">
                                 <h6 class="certificate_title">
-                                    Winner IEEE Xtreme 12.0 Programming Competition (08/2018)
+                                    PHP, HTML & CSS 
                                 </h6>
-                                <p>1st in Pakistan, 145 Region Rank & 406/2608 Global Rank</p>
+                                <p>Sololearn App</p>
                             </div>
                             <div class="certificate_detail">
                                 <h6 class="certificate_title">
-                                    Winner IEEE Xtreme 12.0 Programming Competition (08/2018)
+                                    JavaScript & jQuery
                                 </h6>
-                                <p>1st in Pakistan, 145 Region Rank & 406/2608 Global Rank</p>
+                                <p>Sololearn App</p>
                             </div>
                             <div class="certificate_detail">
                                 <h6 class="certificate_title">
-                                    Winner IEEE Xtreme 12.0 Programming Competition (08/2018)
+                                    Python
                                 </h6>
-                                <p>1st in Pakistan, 145 Region Rank & 406/2608 Global Rank</p>
+                                <p>Sololearn App</p>
                             </div>
                         </section>
                         <section class="achivement_section">
-                            <h4 class="title">ACHIEVEMENTS</h4>
+                            <h4 class="title">ACHIEVEMENT</h4>
                             <div class="achivement_detial">
-                                <h6>1st Position in Exams (2012 - 2014)</h6>
-                                <p>Punjab Group of Colleges</p>
-                            </div>
-                            <div class="achivement_detial">
-                                <h6>1st Position in Exams (2012 - 2014)</h6>
-                                <p>Punjab Group of Colleges</p>
-                            </div>
+                                <h6>Top Ranked All around Pakistan</h6>
+                                <p>On SoloLearn Code Learning App</p>
+                            </div>                            
                         </section>
                         <section id="language_section">
                             <h4 class="title"><i class="fas fa-language"></i> Languages</h4>
@@ -329,13 +393,13 @@
 
             </div>
 
-        </div>
-
+        </div>       
         <div id="googleMap"></div>
 
     </section>
 
     <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/easypiechart.js"></script>
     <!-- Bootstrap -->
     <script src="./assets/js/popper.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
@@ -347,6 +411,7 @@
     <script src="./assets/js/jquery.counterup.min.js"></script>
     <script src="assets/js/imgfix.min.js"></script>
     <script src="./assets/js/ripple.js"></script>
+   <!--  <script src="./assets/js/waypoints.min.js"></script> -->
 
     <!-- Global Init -->
     <script src="./assets/js/custom.js"></script>
@@ -357,51 +422,7 @@
 
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=341526076316285&autoLogAppEvents=1" nonce="Ap7FpmGy">
     </script>
-    <script>
-        //$("#header_section").ripples();
-
-
-        function myMap() {
-            const myLatLng = {
-                lat: 33.624711,
-                lng: 73.035879
-            };
-            var mapProp = {
-                center: new google.maps.LatLng(myLatLng),
-                zoom: 14,
-            };
-            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-            const image = "assets/images/pakistan_flag.png";
-            var icon = {
-                url: image, // url
-                scaledSize: new google.maps.Size(100, 100), // scaled size
-                //origin: new google.maps.Point(0, 0), // origin
-                //anchor: new google.maps.Point(0, 0) // anchor
-            };
-            const marker = new google.maps.Marker({
-                position: myLatLng,
-                map: map,
-                title: "Muhammad Idrees!",
-                icon: icon
-            });
-
-        }
-        window.fbAsyncInit = function() {
-            FB.init({
-                xfbml: true,
-                version: 'v10.0'
-            });
-        };
-
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+    <script src="./assets/js/script.js"></script>   
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCa0H2RIdRnapxCXBITUO4yBLQ7nUfQtf0&callback=myMap"></script>
     <div class="fb-customerchat" attribution="setup_tool" page_id="103661521153198"></div>
 </body>

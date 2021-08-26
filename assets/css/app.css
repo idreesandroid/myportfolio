@@ -12,7 +12,9 @@
 #header_section p{
 	color: #fff;
 }
-
+#body_section {
+	/*background-color: lightblue;*/
+}
 
 #header_section img{
 	width: 100%;
@@ -95,4 +97,81 @@
 .not-fill{
 
     background-color: #fff;
+}
+
+
+/*Skills Section Style*/
+ .chart {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+.chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+
+}
+.percent {
+    display: inline-block;
+    line-height: 40px;
+    font-size: 13px;
+    margin: 8px 0 0 0px;
+}
+
+.label {
+    display: block;
+    margin: 5px 0 5px 0;
+    text-align: center;
+    padding-left: 7px;
+    font-size: 13px;
+}
+
+/*Map Style*/
+
+#googleMap {
+    height: 300px;
+}
+
+/*Social Icons Style*/
+.social_icons i {
+    font-size: 33px;
+    color: #fff;
+}
+
+.social_icons {
+    margin-right: 10px;
+}
+
+.rounded-circle:hover {
+  color: #449399;
+  box-shadow: 0 0 15px #449399;
+  text-shadow: 0 0 15px #449399;
+}
+
+
+
+/*Progress Bar*/
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.progress-container {
+  background-color: rgba(150, 150, 150, 0.6);
+  height: 5px;
+  width: 100%;
+}
+
+.progress-bar {
+  background-color: #2196f3;
+  height: 5px;
+  width: 0%;
 }
