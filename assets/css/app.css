@@ -35,14 +35,7 @@
 #contact_section .address{
 	padding-left: 36px;
 }
-.skill_tags span{
-	background-color: #313c4e;
-	border-radius: 5px;
-	color: #fff;
-	display: inline-block;
-	padding: 2px 5px;	
-	margin-bottom: 5px;
-}
+
 .title{	    
 	font-size: 18px;
 	margin: 14px 0;
@@ -78,6 +71,12 @@
 	padding: 2px 5px;	
 	margin-bottom: 5px;
 	border: 2px solid #313c4e;
+}
+
+.interest_detail span:hover{
+	background-color: #313c4e;
+	color: #fff;
+	transition: background-color 5000ms ease-out;
 }
 
 #contact_section .dob{
@@ -187,7 +186,7 @@
 	display: inline-block;
 	margin: 0;
 	padding: 10px 15px;
-	border: 1px solid tomato;
+	border: 1px solid #313c4e;
 	cursor: pointer;
 	-webkit-transition: all .5s ease;
 	-ms-transition: all .5s ease;
@@ -197,7 +196,7 @@
 }
 .portfolio-menu ul li:hover,
 .portfolio-menu ul li.active{
-	background-color: tomato;
+	background-color: #313c4e;
 	color: #fff;
 }
 
