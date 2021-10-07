@@ -76,7 +76,7 @@
 .interest_detail span:hover{
 	background-color: #313c4e;
 	color: #fff;
-	transition: background-color 5000ms ease-out;
+	transition: background-color 2000ms ease-out;
 }
 
 #contact_section .dob{
@@ -138,7 +138,7 @@
 
 /*Social Icons Style*/
 .social_icons i {
-    font-size: 33px;
+    font-size: 20px;
     color: #fff;
 }
 
@@ -244,4 +244,33 @@
 
 .personal_projects{
 	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	#header_section h1 {
+		font-size: 45px;
+		padding: 15px 0 5px 0;
+	}
+	#header_section h5 {
+		font-size: 30px;
+	}
+	#header_section p {
+    	font-size: 20px;
+    	padding: 15px 0;
+	}
+	.social_media_icons {
+		text-align: center;
+		padding: 15px 0;
+	}
+	.social_media_icons .social_icons i {
+		font-size: 37px;
+	}
+	#contact_section .row div {
+		font-size: 20px;		
+	}
+	
+  
+	#contact_section .address, #contact_section .mobile {
+    	padding-left: 15px;
+  }
 }
