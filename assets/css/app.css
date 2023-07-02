@@ -36,6 +36,22 @@
 	padding-left: 36px;
 }
 
+.cv_profile_img {
+	display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.top_header {
+	padding: 15px 0px;
+}
+
+.profile_description {
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
 .title{	    
 	font-size: 18px;
 	margin: 14px 0;
