@@ -30,10 +30,12 @@
 	font-size: 15px;
 }
 #contact_section .mobile{
-	padding-left: 68px;
+/*	padding-left: 68px;*/
+	text-align: center;
 }
 #contact_section .address{
-	padding-left: 36px;
+/*	padding-left: 36px;*/
+	text-align: center;
 }
 
 .cv_profile_img {
@@ -62,8 +64,17 @@
 	display: inline-block;
 }
 
+.sub_title {
+	font-size: 18px;
+	margin: 14px 0;
+	color: #449399;
+	text-transform: uppercase;
+	font-weight: 600;
+	position: relative;
+}
 
-.title:after {
+
+.title:after, .sub_title:after {
 	position: absolute;
 	left: 0%;
 	content: '';
@@ -74,7 +85,7 @@
 	bottom: -4px;  
 }
 
-.title:hover:after {
+.title:hover:after{
 	width: calc(100% - 0px);
 	margin-left: 0px;
 	margin-top: 10px;
@@ -97,6 +108,7 @@
 
 #contact_section .dob{
 	padding-right: 25px;
+	text-align: center;
 }
 #language_section .circle{
 	width: 20px;
