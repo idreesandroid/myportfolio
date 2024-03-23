@@ -78,6 +78,69 @@ window.fbAsyncInit = function() {
 
 
 $(document).ready(function() {
+    $('.red').easyPieChart({
+        delay: 4000,
+        barColor : "#F13700",
+        trachColor: "#cecece",
+        lineWidth: 4,
+        trachWidth: 2,
+        size : 55
+    });
+
+    $('.blue').easyPieChart({
+        delay: 4000,
+        barColor : "#264DE4",
+        trachColor: "#cecece",
+        lineWidth: 4,
+        trachWidth: 2,
+        size : 55
+    });
+    $('.yellow').easyPieChart({
+        delay: 4000,
+        barColor : "#F7E018",
+        trachColor: "#cecece",
+        lineWidth: 4,
+        trachWidth: 2,
+        size : 55
+    });
+
+    $('.green').easyPieChart({
+        delay: 4000,
+        barColor : "#0EA14C",
+        trachColor: "#fff",
+        lineWidth: 4,
+        trachWidth: 5,
+        size : 55
+    });
+
+    $('.lightgreen').easyPieChart({
+        delay: 4000,
+        barColor : "#63AD04",
+        trachColor: "#cecece",
+        lineWidth: 4,
+        trachWidth: 2,
+        size : 55
+    }); 
+
+    $('.cyne').easyPieChart({
+        delay: 4000,
+        barColor : "#00BEF2",
+        trachColor: "#fff",
+        lineWidth: 4,
+        trachWidth: 5,
+        size : 55
+    });
+
+    $('.magenta').easyPieChart({
+        delay: 4000,
+        barColor : "#7510EC",
+        trachColor: "#fff",
+        lineWidth: 4,
+        trachWidth: 5,
+        size : 55
+    });
+
+
     $('.html').easyPieChart({
         delay: 4000,
         barColor : "#E96327",
